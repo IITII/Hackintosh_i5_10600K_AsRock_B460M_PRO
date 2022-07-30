@@ -1,4 +1,7 @@
 # AsRock_B460M_PRO_Monterey_Hackintosh_OC
+
+> 支持引导 BigSur 和 Monterey  
+
 AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
 
 ## 基本信息
@@ -7,8 +10,6 @@ AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
 * MacOS
   * BigSur 11.6.8
   * Monterey 12.5
-
-> 支持引导 BigSur 和 Monterey  
 
 ## Hackintosh + OpenCore 0.8.2
 
