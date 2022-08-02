@@ -15,6 +15,7 @@ AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
 
 * https://dortania.github.io/OpenCore-Desktop-Guide
 * https://www.sqlsec.com/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/
+* https://apple.sqlsec.com/
 * https://github.com/3Alan/Hackintosh-i5-10400-B460M-MORTAR-WIFI
 
 ## TODO
