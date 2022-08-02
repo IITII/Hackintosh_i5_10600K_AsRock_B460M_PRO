@@ -30,6 +30,7 @@ AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
 * USB端口识别（已定制）
 * WIFI
 * 蓝牙
+* 隔空投送
 * 集显DP输出
 * 独显DP输出
 * 主板+显卡风扇转速显示
@@ -38,7 +39,6 @@ AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
 ### 未测试
 * 睡眠/唤醒（台式机目前没有休眠需求
 * 声卡输出
-* 隔空投送
 
 ![alt](./images/usb_t1.png)
 
