@@ -49,28 +49,28 @@ AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
 
 ## 三码自行替换
 
-```
+```xml
 <dict>
-    <key>AdviseWindows</key>
-    <false/>
-    <key>MaxBIOSVersion</key>
-    <false/>
-    <key>MLB</key>
-    <string>xxxxxxxxxxxxxxx</string>
-    <key>ProcessorType</key>
-    <integer>0</integer>
-    <key>ROM</key>
-    <data>ESIzRFVm</data>
-    <key>SpoofVendor</key>
-    <true/>
-    <key>SystemMemoryStatus</key>
-    <string>Auto</string>
-    <key>SystemProductName</key>
-    <string>iMac20,1</string>
-    <key>SystemSerialNumber</key>
-    <string>xxxxxxxxxxx</string>
-    <key>SystemUUID</key>
-    <string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
+	<key>AdviseFeatures</key>
+	<false/>
+	<key>MaxBIOSVersion</key>
+	<false/>
+	<key>MLB</key>
+	<string>xxxxxxxxxxxxxxx</string>
+	<key>ProcessorType</key>
+	<integer>0</integer>
+	<key>ROM</key>
+	<data>vfCqhr8c</data>
+	<key>SpoofVendor</key>
+	<true/>
+	<key>SystemMemoryStatus</key>
+	<string>Auto</string>
+	<key>SystemProductName</key>
+	<string>iMac20,1</string>
+	<key>SystemSerialNumber</key>
+	<string>xxxxxxxxxxx</string>
+	<key>SystemUUID</key>
+	<string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
 </dict>
 ```
 
