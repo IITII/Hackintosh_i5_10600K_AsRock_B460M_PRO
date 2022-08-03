@@ -2,16 +2,16 @@
 
 > 支持引导 BigSur 和 Monterey  
 
-AsRock B460M Pro, i5 10600K, OC 0.8.2, Monterey 12.5, BigSur 11.6.8
+AsRock B460M Pro, i5 10600K, OC 0.8.3, Monterey 12.5, BigSur 11.6.8
 
 ## 基本信息
 
-* OpenCore: 0.8.2 DEBUG
+* OpenCore: 0.8.3 DEBUG
 * MacOS
   * BigSur 11.6.8
   * Monterey 12.5
 
-## Hackintosh + OpenCore 0.8.2
+## Hackintosh + OpenCore 0.8.3
 
 * https://dortania.github.io/OpenCore-Desktop-Guide
 * https://www.sqlsec.com/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/
@@ -95,6 +95,9 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 > 当然也有现成的脚本：https://github.com/digitalbirdo/BT-LinkkeySync  
 
 ## 更新记录
+### 2022.08.03
+* USB 定制
+* OpenCore 0.8.3
 ### 2022.08.02
 * Monterey 蓝牙修复
 * USB 定制初版
