@@ -2,16 +2,19 @@
 
 > 支持引导 BigSur 和 Monterey  
 
-AsRock B460M Pro, i5 10600K, OC 0.8.3, Monterey 12.5, BigSur 11.6.8
+AsRock B460M Pro, i5 10600K, OC 0.8.6, Monterey 12.6.1
+
+> BigSur 没有测试, 应该支持, 已经全部切换到 Monterey 了  
 
 ## 基本信息
 
-* OpenCore: 0.8.3 DEBUG
+* OpenCore: 0.8.6 DEBUG
 * MacOS
-  * BigSur 11.6.8
-  * Monterey 12.5
+  * ~~BigSur 11.6.8~~
+  * Monterey 12.6.1
+* [Kexts 信息](./kexts/version.md)
 
-## Hackintosh + OpenCore 0.8.3
+## Hackintosh + OpenCore 0.8.6
 
 * https://dortania.github.io/OpenCore-Desktop-Guide
 * https://www.sqlsec.com/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/
@@ -26,7 +29,8 @@ AsRock B460M Pro, i5 10600K, OC 0.8.3, Monterey 12.5, BigSur 11.6.8
 
 ## Work
 
-* 图形界面EFI
+* 图形界面EFI + 定制化主题
+  * https://github.com/IITII/OpenCore-Themes
 * 核显硬件加速
 * USB端口识别（已定制）
 * WIFI
@@ -41,12 +45,27 @@ AsRock B460M Pro, i5 10600K, OC 0.8.3, Monterey 12.5, BigSur 11.6.8
 * 睡眠/唤醒（台式机目前没有休眠需求
 * 声卡输出
 
+![theme](https://github.com/IITII/OpenCore-Themes/blob/main/docs/pre_bigsur.png?raw=true)
 ![alt](./images/usb_t1.png)
 
 ## 硬件
 
 * 见：https://iitii.github.io/2021/09/10/1/
 * GPU 使用 UHD630集显和蓝宝石 RX460 OC 4GB 版本，都有视频输出（因为RX460只有一个 DP 接口，不够用。。。
+
+|   名称    |        型号         |
+| :-------: | :-----------------: |
+|   主板    |  Asrock B460M Pro   | 
+|    CPU    |      i5-10600K      | 
+| CPU散热器 |   利民AK120 plus    | 
+|   集显    |    Intel UHD 630    | 
+|   内存    | 海盗船 16x2 3200MHz + 光威 32G | 
+|   硬盘    |   西数 SN770 1T   | 
+| 蓝牙/WiFi |       FV T919       | 
+|   机箱    |   先马 趣造 钛灰    | 
+|   电源    |          -          | 
+
+> 因为光威的内存条, 所以导致整体频率只能跑在 2400Mhz  
 
 ## 三码自行替换
 
@@ -95,6 +114,11 @@ Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsU
 > 当然也有现成的脚本：https://github.com/digitalbirdo/BT-LinkkeySync  
 
 ## 更新记录
+### 2022.11.18
+* OpenCore 0.8.6
+* 定制化主题
+* kexts 升级
+* 添加常用小工具
 ### 2022.08.03
 * USB 定制
 * OpenCore 0.8.3
